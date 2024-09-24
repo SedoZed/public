@@ -19,7 +19,17 @@ body {
 }
 
 section {
-    color: black;
+    display: block;
+    flex-grow: 1;
+    background-color: rgb(117, 161, 94);
+    border: 2px solid black;
+    margin: 0 15%;
+    margin-bottom: 4em;
+    padding: 2em;
+}
+
+section h2 {
+    text-align: center;
 }
 
 /* Style pour le footer */
@@ -42,6 +52,7 @@ nav {
     padding: 0;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
+    margin-bottom: 3em;
 }
 
 nav a {
