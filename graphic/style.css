@@ -5,7 +5,11 @@ header {
     padding: 20px;
     text-align: center;
     font-size: 1.6em;
+}
 
+.en_tete {
+    font-size: larger;
+    margin-top: 10px;
 }
 
 /* Style pour le background global */
@@ -32,12 +36,15 @@ section h2 {
     text-align: center;
 }
 
+section #last_info {
+    margin-bottom: 3em;
+}
+
 /* Style pour le footer */
 footer {
     display: block;
     background-color: rgb(33, 55, 21);
     border: 2px solid black;
-    padding: 10px;
     text-align: center;
     position: fixed;
     width: 100%;
