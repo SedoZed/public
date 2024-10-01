@@ -32,8 +32,14 @@ section {
     padding: 2em;
 }
 
-section h2 {
+.content h2 {
+    margin-bottom: 2em;
     text-align: center;
+}
+
+.content {
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 section #last_info {
@@ -86,4 +92,19 @@ nav #last {
 
 nav a:hover {
     background-color: rgb(210, 210, 210);
+}
+
+/* Mise en forme inline. */
+
+.bold {
+    font-weight: bolder;
+}
+
+.ita {
+    font-style: italic;
+}
+
+#petit {
+    font-size: small;
+    font-weight: lighter;
 }
